@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DashBoard</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/icon.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="bg-grey">
+
+	<div class="side-bar card">
+		<div class="site-name-wrapper">
+			<span class="site-name">
+				<span class="icon icon-three-circles fn-green"></span>
+				Dashboard	
+			</span>
+		</div>
+		<div class="side-menu">
+			<ul>
+				<li>
+					<a href="">
+						<span class="icon icon-home fn-red"></span>
+						Home
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span class="icon icon-stack fn-orange"></span>
+						Assessment
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span class="icon icon-dashboard fn-green"></span>
+						Dashboard
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span class="icon icon-download fn-lb"></span>
+						Inbox
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span class="icon icon-users fn-blue"></span>
+						Users
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span class="icon icon-user fn-purple"></span>
+						Profile
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="content-wrapper">
+		<div class="header container-fluid">
+			<div class="row">
+				<div class="col-xs-12 col-lg-4 xs-mg-tp-10">
+					<span class="icon icon-user user-avatar"></span>
+					<span class="pd-lt-10 d-block left">
+						<span class="user-name">Vijay Sundarapandiyan</span>
+						<span class="location">Chennai</span>
+					</span>
+				</div>
+				<div class="col-xs-12 col-lg-4 xs-mg-tp-10">
+					<div class="search-wrapper">
+						<input class="nav-search" type="text" placeholder="search">
+					</div>
+				</div>
+				<div class="col-xs-12 col-lg-4 xs-mg-tp-10">
+					<span class="icon icon-message fn-purple notifications"></span>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row mg-tp-10">
+				<div class="col-xs-12 col-lg-8">
+					<div class="over-all-stats card card-blended">
+						<div class="stats-head">
+							<span class="fn-purple fn-13 bold">Overall Sales</span>
+						</div>
+						<div class="stats-body">
+							<div id="over-all""></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-lg-4">
+					<div class="social-traffic card card-blended">
+						<div class="stats-head">
+							<span class="fn-purple fn-13 bold">Social Media Impressions</span>
+						</div>
+						<div class="stats-body">
+							<div class="social-month-data">
+								<span class="pd-bt-5 d-block">January</span>
+								<span class="stat-row">
+									<span class="progress">
+										<span class="bg-purple w-70"></span>
+									</span>
+									<span class="title">Feedback</span>
+								</span>
+								<span class="stat-row">
+									<span class="progress">
+										<span class="bg-pink w-55"></span>
+									</span>
+									<span class="title">Follow</span>
+								</span>
+								<span class="stat-row">
+									<span class="progress">
+										<span class="bg-yellow w-40"></span>
+									</span>
+									<span class="title">Unfollow</span>
+								</span>
+							</div>
+							<div class="social-month-data">
+								<span class="pd-bt-5 d-block">February</span>
+								<span class="stat-row">
+									<span class="progress">
+										<span class="bg-purple w-60"></span>
+									</span>
+									<span class="title">Feedback</span>
+								</span>
+								<span class="stat-row">
+									<span class="progress">
+										<span class="bg-pink w-80"></span>
+									</span>
+									<span class="title">Follow</span>
+								</span>
+								<span class="stat-row">
+									<span class="progress">
+										<span class="bg-yellow w-30"></span>
+									</span>
+									<span class="title">Unfollow</span>
+								</span>
+							</div>
+							<div class="social-month-data">
+								<span class="pd-bt-5 d-block">March</span>
+								<span class="stat-row">
+									<span class="progress">
+										<span class="bg-purple w-10"></span>
+									</span>
+									<span class="title">Feedback</span>
+								</span>
+								<span class="stat-row">
+									<span class="progress">
+										<span class="bg-pink w-15"></span>
+									</span>
+									<span class="title">Follow</span>
+								</span>
+								<span class="stat-row">
+									<span class="progress">
+										<span class="bg-yellow w-20"></span>
+									</span>
+									<span class="title">Unfollow</span>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row mg-tp-15 mg-bt-15">
+				<div class="col-xs-12 col-lg-9">
+					<div class="user-stats card card-blended">
+						<div class="stats-head">
+							<span class="fn-purple fn-13 bold">User Stats</span>
+						</div>
+						<div class="stats-body">
+							<table class="table table-responsive">
+								<thead>
+									<tr>
+										<th>Name</th>
+										<th>Date</th>
+										<th>Type</th>
+										<th>Status</th>
+										<th>Option</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<span class="icon icon-user user-avatar"></span>
+											<span class="tb-user-name">Vijay</span> 
+										</td>
+										<td>
+											<span>April 30 2019</span>
+										</td>
+										<td>
+											<span class="label bg-purple">Premium</span>
+										</td>
+										<td>
+											<span>Open</span>
+										</td>
+										<td>
+											<label class="switch">
+												<input type="checkbox" checked>
+												<span class="slider round"></span>
+											</label>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="icon icon-user user-avatar"></span>
+											<span class="tb-user-name">Vijay</span> 
+										</td>
+										<td>
+											<span>April 30 2019</span>
+										</td>
+										<td>
+											<span class="label bg-purple">Premium</span>
+										</td>
+										<td>
+											<span>Open</span>
+										</td>
+										<td>
+											<label class="switch">
+												<input type="checkbox" checked>
+												<span class="slider round"></span>
+											</label>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="icon icon-user user-avatar"></span>
+											<span class="tb-user-name">Vijay</span> 
+										</td>
+										<td>
+											<span>April 30 2019</span>
+										</td>
+										<td>
+											<span class="label bg-purple">Premium</span>
+										</td>
+										<td>
+											<span>Open</span>
+										</td>
+										<td>
+											<label class="switch">
+												<input type="checkbox" checked>
+												<span class="slider round"></span>
+											</label>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="icon icon-user user-avatar"></span>
+											<span class="tb-user-name">Vijay</span> 
+										</td>
+										<td>
+											<span>April 30 2019</span>
+										</td>
+										<td>
+											<span class="label bg-purple">Premium</span>
+										</td>
+										<td>
+											<span>Open</span>
+										</td>
+										<td>
+											<label class="switch">
+												<input type="checkbox" checked>
+												<span class="slider round"></span>
+											</label>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-lg-3">
+					<div class="revenue-stats mg-bt-15 card-blended grd-purple">
+						<div class="revenue-stats-body">
+							<span class="heading">Revenue</span>
+							<span class="amount">$250,000</span>
+							<span class="month">July</span>
+							<span class="percentage">20%</span>
+						</div>
+					</div>
+					
+					<div class="revenue-stats mg-bt-15 card-blended grd-green">
+						<div class="revenue-stats-body">
+							<span class="heading">Revenue</span>
+							<span class="amount">$250,000</span>
+							<span class="month">July</span>
+							<span class="percentage">20%</span>
+						</div>
+					</div>
+
+					<div class="revenue-stats card-blended grd-blue">
+						<div class="revenue-stats-body">
+							<span class="heading">Revenue</span>
+							<span class="amount">$250,000</span>
+							<span class="month">July</span>
+							<span class="percentage">20%</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</html>
